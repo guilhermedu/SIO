@@ -1,0 +1,4 @@
+POST /1st-project-group_21/app/api/add_feedback.php HTTP/1.1
+Host: 127.0.0.1
+
+{"id":"1","stars":"*","comentario":"random text"}

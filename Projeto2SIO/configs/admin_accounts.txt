@@ -1,0 +1,32 @@
+app_sec Administrator
+user: 4DM1N_D371_4CC0UN7
+pass: U4n0%2nirhpJ<Vm)P@\C
+
+other user
+user: antonio
+pass: ANTONIOantonio@1
+
+mysql user
+user: app_sec_mysql_user_n_1
+pass: SDAs2123@_122
+
+commands used
+CREATE USER 'app_sec_mysql_user_n_1'@'localhost' IDENTIFIED BY 'SDAs2123@_122';
+GRANT SELECT, INSERT, UPDATE, DELETE ON app_sec.* TO 'app_sec_mysql_user_n_1'@'localhost';
+FLUSH PRIVILEGES;
+#SHOW GRANTS FOR 'app_sec_mysql_user_n_1'@'localhost';
+
+
+
+
+app_org Administrator
+user: admin
+pass: admin
+
+other user 
+user: antonio
+pass: antonio
+
+mysql user
+user: root
+pass: SDAs2123@_122
